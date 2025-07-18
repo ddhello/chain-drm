@@ -4,14 +4,14 @@
 seeds = false
 skip-lint = false
 
-[programs.localnet]
+[programs.devnet]
 chain_drm = "6CTtHe2u4robZvXvP1SbdhKrRvZzYszAurBD7wxMydji"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "https://api.devnet.solana.com"
 wallet = "/home/xiangpi/.config/solana/id.json"
 
 [scripts]
